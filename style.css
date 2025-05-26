@@ -179,7 +179,7 @@ main {
   margin-top: 2.4rem;
   opacity: 1;
   transform: translateY(0);
-  transition: .8rem;
+  transition: opacity .4s ease, transform .4s ease;
 
 
 
@@ -196,7 +196,6 @@ main {
     border: none;
     background: none;
     color: var(--always-white);
-    
- }
+}
 
 }
