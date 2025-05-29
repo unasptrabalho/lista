@@ -4,7 +4,7 @@ function addItem() {
  const itemName = document.querySelector("#item").value
 
 const item = {
-    name: itemName;
+    name: itemName,
     checked: false 
 }
 
